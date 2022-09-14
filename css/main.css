@@ -1,0 +1,28 @@
+section{
+  background-image: url("img/back.jpg");
+  background-repeat: no-repeat;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+  margin: 10px 0 0 0;
+}
+
+figure{
+  text-align: center;
+}
+img{
+  margin: 20px;
+  background: green;
+}
+/*FOOTER*****************/
+footer{
+  display: flex;
+  flex-direction: row;
+}
+.footerLink{
+  display: flex;
+  flex-direction: column;
+  margin: 40px 0 0 20px;
+}
