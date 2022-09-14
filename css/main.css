@@ -156,6 +156,19 @@ footer{
     flex-direction: column;
     align-items: center;
   }
+  footer{
+    height: 10vh;
+  }
+  footer> a> img{
+    width: 150px;
+    margin-top: 95px;
+  }
+  .footerLink{
+
+    margin:  0 ;
+   
+   
+  }
 }
 /**Inscription ****************/
 section > form{
