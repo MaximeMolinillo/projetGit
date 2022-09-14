@@ -52,15 +52,25 @@ header{
   justify-content: space-between;
   background-image: url("../img/drapeau.webp");
   width: 100%;
+  margin-top: -50px;
 }
-header > a {
-  font-family: 'Josefin Sans', sans-serif;
-  color: #D5AD31;
-  font-size: 70px;
-  text-shadow: 5px 5px 5px black;
+.logo{
+  width: 400px;
+  padding-bottom: 100px;
 }
+
+
 .form{
   justify-content: right;
+  height: 50%;
+  margin-top: 100px;
+}
+.form>a{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #980F31;
+  font-size: 35px;
+  text-decoration: none;
+  justify-content: space-between;
 }
 /*FOOTER*****************/
 footer{
