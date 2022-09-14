@@ -35,6 +35,24 @@ figcaption{
   color: white;
   font-size: 20px;
 }
+
+/*HEADER*****************/
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-image: url("../img/drapeau.webp");
+  width: 100%;
+}
+header > a {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #D5AD31;
+  font-size: 70px;
+  text-shadow: 5px 5px 5px black;
+}
+.form{
+  justify-content: right;
+}
 /*FOOTER*****************/
 footer{
   display: flex;
