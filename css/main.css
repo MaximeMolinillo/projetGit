@@ -44,11 +44,34 @@ figcaption{
   text-align: center;
   margin: 10px 0 10px 0;
 }
+
+/*Page de match *************************/
+.matchSection{
+  height: 60vh;
+color: white;
+/* display: flex; */
+text-align: center;
+padding: 20px;
+}
+.match-left-wrapper > img{
+ background: #D5AD31;
+ padding: 20px;
+ 
+}
+.match-right-wrapper > p {
+padding: 20px;
+
+}
+.match-right-wrapper > h2{
+  color: #D5AD31;
+  margin-top: 10px;
+}
 /*FOOTER*****************/
 footer{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  margin-bottom: 20px;
  
 
 }
@@ -74,17 +97,48 @@ footer{
 
 /**Inscription ****************/
 section > form{
-  width: 100vh;
+  height: 80vh;
+  padding-top: 50px;
+ 
+
 }
+
 label{
   color: white;
  
 }
+input{
+  width: 40%;
+  height: 40px;
+  border-radius: 20px;
+}
+::placeholder{
+  text-align: center;
+}
 
 .form-group{
   padding: 10px;
-}
-.wrap-form-group{
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.submit{
+  font-family: 'Josefin Sans', sans-serif; 
+  font-size: 20px;
+  font-weight: 900;
+  background-color: #D5AD31;
+  color: white;
+  border-radius: 20px;
+  width: 20%;
+  height: 30px;
+  border: 1px solid white;
+  margin: 20px 40% 20px 40%;
+  padding: 5px;
+
+ 
+}
+.submit:hover{
+background: white;
+color: #D5AD31;
 }
