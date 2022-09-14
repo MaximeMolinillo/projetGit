@@ -44,26 +44,7 @@ figcaption{
   text-align: center;
   margin: 10px 0 10px 0;
 }
-@media screen and (max-width : 600px) {
-  a>img{
-    width: 50%;
-  }
-  h1{
-    font-size: 30px;
-  }
-  figcaption{
-    font-size: 15px;
-  }
-  aside{
-    /* display: none; */
-    text-align: center;
 
-  }
-  figure > a>img {
-    padding: 5px;
-
-  }
-}
 /*Page de match *************************/
 .matchSection{
   height: 60vh;
@@ -84,17 +65,6 @@ padding: 20px;
 .match-right-wrapper > h2{
   color: #D5AD31;
   margin-top: 10px;
-}
-@media screen and (max-width : 600px) {
-   img{
-   width: 80%;
-    
-   }
-   .match-left-wrapper > img{
-    
-    padding: 5px;
-    
-   }
 }
 /*HEADER*****************/
 header{
@@ -151,25 +121,7 @@ footer{
   font-weight: 700;
 }
 
-@media screen and (max-width : 600px) {
-  footer{
-    flex-direction: column;
-    align-items: center;
-  }
-  footer{
-    height: 10vh;
-  }
-  footer> a> img{
-    width: 150px;
-    margin-top: 95px;
-  }
-  .footerLink{
 
-    margin:  0 ;
-   
-   
-  }
-}
 /**Inscription ****************/
 section > form{
   height: 80vh;
@@ -237,7 +189,7 @@ p{
   
 .form{
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: ;
   height: 50%;
   margin-top: 100px;
   text-align: center;
